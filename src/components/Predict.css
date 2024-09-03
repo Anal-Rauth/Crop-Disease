@@ -14,13 +14,15 @@
   }
   
   button:disabled {
-    background-color: #ccc;
+    background-color: #4CAF50;
   }
   
   input[type="file"] {
     margin-bottom: 10px;
   }
-  
+  h1 {
+    color: #4CAF50;
+  }
   h2 {
     margin-top: 20px;
     color: green;

@@ -1,14 +1,88 @@
+/* Home Page Styling */
 .home {
-    margin-top: 50px;
-  }
   
+  .home {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 50px;
+      /* Reduced margin-top */
+      padding: 50px;
+      /* Decreased padding */
+      max-width: 100  vw;
+      /* Set max-width to 80% of the viewport width */
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #333;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Heading Styling */
+.home h1 {
+  font-size: 48px;
+  color: #4CAF50;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Paragraph Styling */
+/* .home p {
+  padding: 40px;
+  font-size: 18px;
+  color: #f5efef;
+  line-height: 1.6;
+} */
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+
+  /* Tablets */
+  .home {
+    padding: 15px;
+    margin-top: 80px;
+  }
+
   .home h1 {
-    font-size: 36px;
-    color: #4CAF50;
+    font-size: 40px;
   }
-  
+
   .home p {
-    font-size: 20px;
-    color: #555;
+    font-size: 16px;
   }
-  
+}
+
+@media (max-width: 768px) {
+
+  /* Large mobile screens */
+  .home {
+    padding: 10px;
+    margin-top: 70px;
+  }
+
+  .home h1 {
+    font-size: 32px;
+  }
+
+  .home p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Small mobile screens */
+  .home {
+    padding: 5px;
+    margin-top: 60px;
+  }
+
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .home p {
+    font-size: 12px;
+  }
+}
